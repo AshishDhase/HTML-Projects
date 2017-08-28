@@ -1,0 +1,52 @@
+/*font-family: 'Catamaran', sans-serif;*/
+html{
+    height: 100%;
+}
+.navbar-default .navbar-brand {
+    color: black;
+}
+
+body{
+    background: url(../images/bg.jpg) ;
+    background-position: center;
+    background-size: cover;
+/*    text-align: center;*/
+    font-family: Catamaran;
+}
+
+.center{
+    text-align: center;
+    padding-top: 10%;
+}
+
+h1,p {
+    color: white;
+}
+
+
+h2 > span {
+    color: white;
+}
+
+@media(max-width:768px) {
+    h1{
+        background-color: #449d44;
+        opacity: 0.8;
+    }
+    h2{
+        background-color: #449d44;
+        opacity: 0.8;
+    }
+}
+
+@media(min-width:768px) {
+    h1{
+        background-color: skyblue;
+        opacity: 0.8;
+    }
+/*
+    h2{
+        background-color: skyblue;
+    }
+*/
+}
